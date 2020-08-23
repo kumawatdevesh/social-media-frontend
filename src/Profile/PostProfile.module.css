@@ -1,0 +1,56 @@
+.row {
+    max-width: 110rem;
+    margin: 0 auto;
+}
+.user__details {
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.7);
+    padding: 5rem;
+}
+.follow {
+    float: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #120647;
+    padding: 0.5rem;
+}
+.card {
+    padding: 0 5rem;
+}
+.user__data {
+    margin-left: 30rem;
+}
+.user__data > * {
+    margin-bottom: 2rem;
+}
+.card img {
+    float: left;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+}
+.card::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.posts {
+    display: block;
+}
+.post {
+    margin: 5rem 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.post p {
+    margin-left: 10rem;
+}
+.post img {
+    border-radius: 0;
+}

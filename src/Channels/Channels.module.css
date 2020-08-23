@@ -1,0 +1,21 @@
+.row {
+    max-width: 112rem;
+    margin: 0 auto;
+}
+.channels {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.channel {
+    flex-basis: 33%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    background-color: #fff;
+    box-shadow: 0 0 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}

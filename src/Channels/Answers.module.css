@@ -1,0 +1,24 @@
+.row {
+    max-width: 112rem;
+    margin: 0 auto;
+}
+.answer__content {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1rem;
+}
+.question {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.8rem;
+    margin: 2rem 1rem;
+    padding: 1rem 0;
+    border-bottom: 0.2rem solid #eee;
+}
+.answer {
+    width: 95%;
+    margin: 5rem auto;
+}

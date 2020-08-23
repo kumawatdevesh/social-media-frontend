@@ -1,0 +1,66 @@
+.row {
+    max-width: 112rem;
+    margin: 0 auto;
+}
+.auth {
+    width: 60%;
+    margin: 0 auto;
+}
+.auth__form {
+    box-shadow: 0 0 0.5rem 0.3rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #fff;
+}
+.auth__form label {
+    display: block;
+    font-size: 1.9rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.auth__form input[type="text"], 
+.auth__form input[type="email"],
+.auth__form input[type="password"] {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid #000;
+    outline: none;
+}
+.auth__form input[type="text"]:hover, 
+.auth__form input[type="email"]:hover,
+.auth__form input[type="password"]:hover {
+    background-color: #f5edef;
+}
+
+.auth__form input[type="submit"] {
+    display: block;
+    width: 20%;
+    margin: 5rem auto;
+    padding: 1.2rem 1rem;
+    font-size: 1.7rem;
+    outline: none;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #120647;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.authHandler {
+    display: block;
+    width: 10%;
+    margin: 2rem auto;
+    padding: 0.2rem;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+.google {
+    display: flex;
+    justify-content: center;
+}

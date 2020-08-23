@@ -1,0 +1,42 @@
+.row {
+    max-width: 112rem;
+    margin: 0 auto;
+}
+.frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sent {
+    background-color: #120647;
+    flex-basis: 50rem;
+    color: #fff;
+    padding: 2rem;
+}
+.sentCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;background-color: #fff;
+    padding: 1.5rem 1rem;
+    margin: 2rem 1rem;
+    color: #000;
+    border-radius: 0.5rem;
+}
+.sentCard a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.recieve {
+    background-color: #120647;
+    flex-basis: 50rem;
+    color: #fff;
+    padding: 2rem;
+}
+.recieveCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    color: #000;
+}

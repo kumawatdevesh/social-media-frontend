@@ -1,0 +1,62 @@
+.row {
+    max-width: 112rem;
+    margin: 0 auto;
+}
+
+.post {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    z-index: 100;
+    border-radius: 1rem;
+}
+.post::before {
+    content: "";
+    display: block;
+    height: 5rem;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: #70162a;
+}
+.post__form {
+    padding: 1rem;
+}
+.post__form label {
+    display: block;
+    text-align: center;
+    margin: 1rem 0;
+}
+.post__form input[type="text"] {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    outline: none;
+    padding: 0.3rem 0.5rem;
+}
+.post__form input[type="file"] {
+    width: 50%;
+    margin: 0 auto;
+}
+.post__form input[type="submit"] {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.8rem 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.7rem;
+    outline: none;
+    cursor: pointer;
+}
+.post__form input[type="submit"]:hover {
+    background-color: #70162a;
+    color: white;
+}
+.previewImage {
+    display: block;
+    width: 30rem;
+    margin: 0 auto;
+}

@@ -1,0 +1,14 @@
+.row {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.not {
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 10%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    z-index: 200;
+}

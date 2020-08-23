@@ -1,0 +1,44 @@
+.row {
+    max-width: 112rem;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+.form {
+    width: 100%;
+    margin: 0 auto;
+}
+.form label{
+    display: block;
+    text-align: center;
+    margin: 2rem 0;
+}
+.form input[type="text"] {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    padding: 0.5rem 0.5rem;
+    outline: none;
+}
+.select {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    padding: 0.5rem 0.5rem;
+    outline: none;
+}
+.form input[type="submit"] {
+    display: block;
+    margin: 3rem auto;
+    font-size: 1.5rem;
+    padding: 0.8rem 2rem;
+    border: 0.1rem solid #120647;
+    background-color: #120647;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}

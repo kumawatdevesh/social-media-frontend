@@ -1,0 +1,26 @@
+.nav {
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 60%;
+}
+
+.nav__links {
+    color: #fff;
+    padding: 1rem 1.5rem;
+    margin-left: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-self: stretch;
+}
+
+.nav__links:hover {
+    background-color: #fff;
+    color: #120647;
+    border-radius: 0.5rem;
+}
+
+
